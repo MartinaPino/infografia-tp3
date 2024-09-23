@@ -98,7 +98,7 @@ body {
 }
 
 .link{
-    color: #EDCC10; 
+    color: #B58BFF; 
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
@@ -167,7 +167,7 @@ body {
   /*   margin: 60px 60px; */
 }
 
-.title-direcion{
+.title-direccion{
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -179,6 +179,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom:30px;
+    width: 100%;
 }
 
 .texto1{ /* le da el espacio a texto y texto */
@@ -195,6 +196,13 @@ body {
     width: 1140px;
     height: 480px;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-pie-foto{
+    font-size: 17px;
+    width: 100%;
+    text-align: left;
     margin-bottom: 30px;
 }
 
@@ -202,20 +210,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 90px;
 }
 
-.restauración-ej, .restauración-ej2{
-    width: 500px;
-    height: 300px;
+.restauración-ej-img{
+    width: 450px;
+    height: 550px;
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.text-restauración-ej, .text-restauración-ej2{
-    font-size: 25px;
-    width: 100%;
-    font-weight: bold;
 }
 
 .text-restauración-container{
@@ -248,6 +249,7 @@ body {
     margin-left: 7px;
 }
 
+
 /*estilos dato3*/
 
 .dato3{
@@ -264,7 +266,7 @@ body {
 }
 
 .title-container3{
-    width: 220px;
+    width: 262px;
     height: 55px;
     display: flex;
     justify-content: center;
@@ -273,7 +275,144 @@ body {
     border-radius: 10px 20px 60px 10px;
 }
 
-.SergioAlbiac-obra1{
+.subltitle-direccion{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 44px;
+}
+
+.subltitle-container{
+    width: 172px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(151, 71, 255, 0.37);
+    border-radius: 18px;
+}
+
+.subltitle-dato{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.SergioAlbiac-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.SergioAlbiac, .SergioAlbiac2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.SergioAlbiac2{
+    margin: 0px 71px; 
+}
+
+.VeraMolnár-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.VeraMolnár, .VeraMolnár2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.VeraMolnár2{
+    margin: 0px 71px; 
+}
+
+.EduardoMac-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.EduardoMac, .EduardoMac2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.EduardoMac2{
+    margin: 0px 71px; 
+}
+
+.MiguelChevalier-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.MiguelChevalier, .MiguelChevalier2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.MiguelChevalier2{
+    margin: 0px 71px; 
+}
+
+.MiguelChevalier-grande{
+    width: 1140px;
+    height: 380px;
+    border-radius: 10px;
+    margin-bottom: 85px;
+}
+
+.AngelaBulloch-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.AngelaBulloch, .AngelaBulloch2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.AngelaBulloch2{
+    margin: 0px 71px; 
+}
+
+.DonaldJudd-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 85px;
+}
+
+.DonaldJudd, .DonaldJudd2{
+    width: 334px;
+    height: 301px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.DonaldJudd2{
+    margin: 0px 71px; 
+}
+
+/* .SergioAlbiac-obra1{
     width: 546px;
     height: 713px;
     border-radius: 10px;
@@ -294,7 +433,7 @@ body {
     width: 100%;
     font-size: 35px;
     text-align: left; 
-    color: #000000;
+    color: white;
     font-weight: bold;
     margin-bottom: 20px;
     padding: 20px;
@@ -304,7 +443,7 @@ body {
     width: 100%;
     font-size: 23px;
     text-align: left; 
-    color: #000000;
+    color: white;
     font-weight: bold;
     padding: 20px;
 }
@@ -313,7 +452,7 @@ body {
     width: 100%;
     font-size: 19px;
     text-align: left; 
-    color: #000000;
+    color: white;
     font-weight: bold;
     padding: 20px;
 }
@@ -385,40 +524,12 @@ body {
     margin-bottom: 10px;
 }
 
-
-
 .SergioAlbiac-obras-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.grafico-container{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;   
-}
-
-.grafico{
-    width: 400px;
-    height: 400px;
-    margin-bottom: 30px;
-}
-
-.textos-graficos-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom:30px;
-}
-
-.grafico-todo-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
+} */
 
 /*estilos dato1*/
 
@@ -446,7 +557,7 @@ body {
 }
 
 .title-container1{
-    width: 495px;
+    width: 346px;
     height: 55px;
     display: flex;
     justify-content: center;
@@ -455,11 +566,28 @@ body {
     border-radius: 10px 20px 60px 10px;
 }
 
-.Eliza{
+/* .Eliza{
     width: 1140px;
     height: 427px;
     border-radius: 10px;
     margin-bottom: 50px;
+} */
+
+.linea-tiempo-base{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linea-base{
+    width: 40px;
+    height: 1639px;
+}
+
+.title-dato-top{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
 }
 
 .texto1-diferente{
@@ -469,7 +597,7 @@ body {
     margin-bottom: 85px;
 }
 
-.title-direcion-diferente{
+.title-direccion-diferente{
     width: 100%;
     display: flex;
     justify-content: flex-start;

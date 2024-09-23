@@ -20,9 +20,9 @@ let volverRestauracion = document.getElementById("volverRestauracion");
 let imagen1 = document.getElementById("imagen1");
 let sergioTexto = document.getElementById("sergioTexto");
 
-let botonRetratoCaotico = document.getElementById("botonRetratoCaotico");
-let botonBalletAbstracto = document.getElementById("botonBalletAbstracto");
-let botonAguilaHilos = document.getElementById("botonAguilaHilos");
+let botonPerro = document.getElementById("botonPerro");
+let botonPlaya = document.getElementById("botonPlaya");
+let botonPersona = document.getElementById("botonPersona");
 
 let imagenRetrato = document.getElementById("imagenRetrato");
 let imagenBallet = document.getElementById("imagenBallet");
@@ -114,7 +114,7 @@ volverRestauracion.addEventListener("click",()=>{
 
 // FIN BOTONERA NAVEGACION
 
-botonRetratoCaotico.addEventListener("click",()=>{
+botonPerro.addEventListener("click",()=>{
 
     imagenRetrato.classList.replace("disabled","active");
     
@@ -127,7 +127,7 @@ botonRetratoCaotico.addEventListener("click",()=>{
 })
 
 
-botonBalletAbstracto.addEventListener("click",()=>{
+botonPlaya.addEventListener("click",()=>{
     imagenBallet.classList.replace("disabled","active");
 
     if(imagenAguila.classList.contains("active")){
@@ -139,7 +139,7 @@ botonBalletAbstracto.addEventListener("click",()=>{
     }
 })
 
-botonAguilaHilos.addEventListener("click",()=>{
+botonPersona.addEventListener("click",()=>{
     imagenAguila.classList.replace("disabled","active");
 
     if(imagenRetrato.classList.contains("active")){
