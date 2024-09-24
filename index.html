@@ -59,10 +59,44 @@
                 para imitar aspectos de la inteligencia humana.</p>
         </div>
 
-<!--         <img class="Eliza" src="imagenes/ELIZA.gif" alt="Eliza"> -->
-
         <div class="linea-tiempo-base">
             <img class="linea-base" src="imagenes/linea-tiempo.png" alt="linea-tiempo">
+            
+            <div id="bolita-eliza" class="bolita" style="top: 40%;">
+                <div id="bolita-eliza" class="texto">1966<br>Eliza</div>
+            </div>
+
+            <div class="bolita" style="top: 60%;">
+                <div id="bolita-parry" class="texto">1972<br>Parry</div>
+            </div>
+
+            <div class="bolita" style="top: 80%;">
+                <div id="bolita-jabber" class="texto">1988<br>Jabberwacky</div>
+            </div>
+
+            <div class="bolita" style="top: 100%;">
+                <div id="bolita-sbait" class="texto">1992<br>Dr.Sbaitso</div>
+            </div>
+
+            <div class="bolita" style="top: 120%;">
+                <div id="bolita-alice" class="texto">1995<br>Alice</div>
+            </div>
+
+            <div class="bolita" style="top: 140%;">
+                <div id="bolita-clippy" class="texto">1997<br>Clippy</div>
+            </div>
+
+            <div class="bolita" style="top: 160%;">
+                <div id="bolita-siri" class="texto">2011<br>Siri</div>
+            </div>
+
+            <div class="bolita" style="top: 180%;">
+                <div id="bolita-chatGpt" class="texto">2022<br>ChatGPT</div>
+            </div>
+
+            
+
+            
         </div>
 
         <div class="title-direccion-diferente">
@@ -79,25 +113,211 @@
         </div>
 
         <div class="title-direccion-diferente">
-            <h3 class="title-dato">Te damos la oportunidad de elegir 3 de estas opciones que aporta la IA, selecciona
+            <h3 class="title-dato">Te damos la oportunidad de elegir 2 de estas opciones que aporta la IA, selecciona
                 una y sorpréndete</h3>
         </div>
 
         <div class="boton-opciones-container">
             <button class="boton-opciones" id="botonPerro">Perro</button>
             <button class="boton-opciones" id="botonPlaya">Playa</button>
-            <button class="boton-opciones" id="botonPersona">Persona</button>
         </div>
 
         <div class="imagenes-botones__container">
-            <img src="imagenes/imagen-boton-1.png" class="disabled" alt="retrato caotico" id="imagenRetrato">
-            <img src="imagenes/boton-imagen-2.png" class="disabled" alt="ballet abstracto" id="imagenBallet">
-            <img src="imagenes/boton-imagen-3.png" class="disabled" alt="aguila hecha de hilos" id="imagenAguila">
+
+            <div class="disabled" id="perro-card">
+                <div class="card-image-container">
+                    <img src="imagenes/perro-1.png" class="image-perro" alt="perro">
+                </div>
+
+
+                <div class="buttons-container">
+                    <div class="cancel-button__container">
+                        <img id="perro-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                    </div>
+                    <div class="botones">
+                        <button id="button-perro-futurista" class="button-perro">FUTURISTA</button>
+                        <button id="button-perro-figura" class="button-perro" >FIGURA GEOMÉTRICA</button>
+                    </div>
+                </div>
+                 
+            </div>
+
+            <div class="disabled" id="card-individual-perro">
+                <div class="card-individual-cancel-button">
+                    <img id="perro-individual-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-individual-image">
+                    <img id="perro-futurista" class="disabled" src="imagenes/perro-2.png" alt="perro">
+                    <img id="perro-figura" class="disabled" src="imagenes/perro-3.png" alt="perro">
+                </div>
+            </div>
+
+            <!-- -----------------------CARD PAISAJES----->
+            <div class="disabled" id="paisaje-card">
+                <div class="card-image-container">
+                    <img src="imagenes/paisaje-1.png" class="image-perro" alt="perro">
+                </div>
+
+
+                <div class="buttons-container">
+                    <div class="cancel-button__container">
+                        <img id="paisaje-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                    </div>
+                    <div class="botones">
+                        <button id="button-paisaje-abstracto" class="button-perro">ABSTRACTA</button>
+                        <button id="button-paisaje-renacentista" class="button-perro" >RENACENTISTA</button>
+                    </div>
+                </div>
+                 
+            </div>
+
+            <div class="disabled" id="card-individual-paisaje">
+                <div class="card-individual-cancel-button">
+                    <img id="paisaje-individual-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-individual-image">
+                    <img id="paisaje-abstracto" class="disabled" src="imagenes/paisaje-2.png" alt="perro">
+                    <img id="paisaje-renacentista" class="disabled" src="imagenes/paisaje-3.png" alt="perro">
+                </div>
+            </div>
+            
+                
         </div>
 
         <div class="ir-panatlla">
             <a class="dato" id="navegarRestauracion">Restauración de obras</a>
             <img src="imagenes/flecha-ir.jpg" alt="flecha">
+        </div>
+
+        
+        <!-- CARDS -->
+        <div id="eliza-card" class="disabled">
+            <div class="card">
+                <div class="card-header">
+                        <a class="card-title" id="navegarPrimerosProgramas">Eliza</a>
+                        <img id="eliza-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Fue el primer chatbot, diseñado para facilitar la comunicación entre maquinas. Ganó popularidad por imitar las respuestas de una psicoterapeuta en entrevistas psiquiatrias preliminares. </p>
+                    <img class="eliza-img" src="imagenes/ELIZA.gif" alt="eliza gif">
+                </div>
+            </div>
+        </div>
+
+        <div id="parry-card" class="disabled">
+            <div class="card parry">
+                <div class="card-header">
+                        <a class="card-title" id="navegarPrimerosProgramas">Parry</a>
+                        <img id="parry-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Versión modificada de “ELIZA” incorporando actitud emocional. Ambos ChatBots se conectaron a través de ARPANET, la precursora de Internet. <br>
+                        Fue creada para estudiar el comportamiento humano y los trastornos psicológicos. </p>
+                        <div class="images-container">
+                            <img class="parry-big__img" src="imagenes/parry-1.png" alt="parry ">
+                            <img class="parry-tiny__img" src="imagenes/parry-2.png" alt="parry ">
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="jabber-card" class="disabled">
+            <div class="card jabber">
+                <div class="card-header">
+                        <a class="card-title jabber-title" id="navegarPrimerosProgramas">Jabberwacky</a>
+                        <img id="jabber-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Simula el chat humano natural de manera interesante, entretenida y humorística. Esta tecnología de aprendizaje está pensada como ua forma  de   entretenimiento.</p>
+                    <img class="jabber-img" src="imagenes/jabber.png" alt="jabber gif">
+                </div>
+            </div>
+        </div>
+
+        <div id="sabaitso-card" class="disabled">
+            <div class="card sabaitso">
+                <div class="card-header">
+                        <a class="card-title sabaitso-title" id="navegarPrimerosProgramas">Dr. Sbaitso</a>
+                        <img id="sabaitso-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">El programa “conversaba” como si fuera un psicólogo,  aunque la mayoría de sus respuestas eran del simples y genéricas. Fue diseñado para mostrar las voces digitalizadas que las tarjetas podían producir, la calidad estaba lejos de ser realista.</p>
+                        <div class="images-container">
+                            <img class="sabaitso-big__img" src="imagenes/sabaitso-1.png" alt="sabaitso ">
+                            <img class="sabaitso-tiny__img" src="imagenes/sabaitso-2.png" alt="sabaitso ">
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="alice-card" class="disabled">
+            <div class="card alice">
+                <div class="card-header">
+                        <a class="card-title alice-title" id="navegarPrimerosProgramas">Alice</a>
+                        <img id="alice-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Fue el mas famoso de su época, tenía la capacidad de comunicarse con humanos de forma eficiente debido a sus funciones experimentales. Otro hecho es que Alice fue la inspiración para “Siri”.
+                        El propósito de este proyecto es probar la capacidad de los agentes inteligentes de java. </p>
+                    <img class="alice-img" src="imagenes/alice.png" alt="alice gif">
+                </div>
+            </div>
+        </div>
+
+        <div id="clippy-card" class="disabled">
+            <div class="card clippy">
+                <div class="card-header">
+                        <a class="card-title clippy-title" id="navegarPrimerosProgramas">Clippy</a>
+                        <img id="clippy-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">El primer agente de conversación disponible en Windows.
+                        Ayudaba a las personas a utilizar la herramienta Microsoft Office a través de un personaje animado  interactivo, el cual tenía la función de interconectar on el contenido de la ayuda de Office.</p>
+                        <div class="images-container">
+                            <img class="clippy-big__img" src="imagenes/clippy-1.png" alt="clippy ">
+                            <img class="clippy-tiny__img" src="imagenes/clippy-2.png" alt="clippy ">
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div id="siri-card" class="disabled">
+            <div class="card siri">
+                <div class="card-header">
+                        <a class="card-title siri-title" id="navegarPrimerosProgramas">Siri</a>
+                        <img id="siri-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Asistente virtual que utiliza lenguaje natural para responder preguntas, hacer recomendaciones y realizar acciones mediante la delegación de solicitudes hacia un conjunto de servicios web que ha ido aumentando con el tiempo.</p>
+                        <div class="images-container siri-images">
+                            <img class="siri-big__img" src="imagenes/siri-1.png" alt="siri ">
+                            <img class="siri-tiny__img" src="imagenes/siri2.png" alt="siri ">
+                            <img class="siri-tiny__img" src="imagenes/siri-3.png" alt="siri ">
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="chatGpt-card" class="disabled">
+            <div class="card chatGpt">
+                <div class="card-header">
+                        <a class="card-title chatGpt-title" id="navegarPrimerosProgramas">ChatGpt</a>
+                        <img id="chatGpt-cancel-button" src="imagenes/cancel.png" alt="flecha">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Modelo de lenguaje avanzado desarrollado por OpenAI, diseñado para procesar y generar texto de manera natural. Utiliza una arquitectura llamada "Transformers" que le permite comprender el  contexto de las palabras en una conversación o texto, generando respuestas coherentes y relevantes.</p>
+                        <div class="images-container">
+                            <img class="chatGpt-big__img" src="imagenes/chatgpt-1.png" alt="chatGpt ">
+                            <img class="chatGpt-tiny__img" src="imagenes/chatgpt-2.png" alt="chatGpt ">
+                        </div>
+                    
+                </div>
+            </div>
         </div>
 
     </div>
@@ -137,13 +357,22 @@
         <div class="restauración-container">
 
             <div class="restauración-container-ej">
-                <img class="restauración-ej-img" src="imagenes/restauracion-antes1.jpg" alt="restauración-ej">
-                <p class="texto-pie-foto">Retrato del compositor polaco Frederic Chopin (1847).</p>
+                <div class="image-antes-despues-container">
+                    <img class="restauración-ej-img" src="imagenes/restauracion-antes1.jpg" alt="restauración-ej">
+                    <img class="restauración-ej-img imagen-despues" src="imagenes/restauracion-despues1.jpg" alt="restauración-ej">
+                </div>
+                
+                <p class="texto-pie-foto">Retrato del compositor polaco Frederic Chopin (1847). <br>
+                    Antes y después de restaurar</p>
             </div>
 
             <div class="restauración-container-ej">
-                <img class="restauración-ej-img" src="imagenes/restauracion-antes2.jpg" alt="restauración-ej2">
-                <p class="texto-pie-foto">Pintura de Jesús vestido de jesuita (S.XVII).</p>
+                <div class="image-antes-despues-container">
+                    <img class="restauración-ej-img" src="imagenes/restauracion-antes2.jpg" alt="restauración-ej">
+                    <img class="restauración-ej-img imagen-despues" src="imagenes/restauracion-despues2.jpg" alt="restauración-ej">
+                </div>
+                <p class="texto-pie-foto">Pintura de Jesús vestido de jesuita (S.XVII). <br>
+                    Antes y después de restaurar </p>
             </div>
 
         </div>
@@ -188,8 +417,23 @@
 
         <div class="SergioAlbiac-container">
             <img class="SergioAlbiac" src="imagenes/SergioAlbiac.png" alt="SergioAlbiac">
-            <img class="SergioAlbiac2" src="imagenes/Sergio-Albiac-obra-2.jpg" alt="Sergio-Albiac-obra-2">
+            
+            <div class="hover-container">
+                <img class="SergioAlbiac2" src="imagenes/Sergio-Albiac-obra-2.jpg" alt="Sergio-Albiac-obra-2">
+                <div class="texto-hover-container">
+                    <p>Hubble Telescope <br>
+                        Stardust portrairts</p>
+                </div>
+            </div>
+            
+            <div class="hover-container">
+                
             <img class="SergioAlbiac" src="imagenes/SergioAlbiac-obra3.jpg" alt="SergioAlbiac-obra3">
+                <div class="texto-hover-container">
+                    <p>COLABORACIÓN CON TOLLESON DESIGN PARA LA VERSIÓN CS6 DE ADOBE CREATIVE SUITE</p>
+                </div>
+            </div>
+            
         </div>
 
         <div class="subltitle-direccion">
@@ -204,8 +448,22 @@
 
         <div class="VeraMolnár-container">
             <img class="VeraMolnár" src="imagenes/VeraMolnár.png" alt="">
-            <img class="VeraMolnár2" src="imagenes/VeraMolnár-obra2.jpg" alt="">
-            <img class="VeraMolnár" src="imagenes/VeraMolnár-obra3.jpg" alt="">
+
+            <div class="hover-container">
+                <img class="VeraMolnár2" src="imagenes/VeraMolnár-obra2.jpg" alt="">
+                <div class="texto-hover-container">
+                    <p>PROMENADES ALÉATOIRES</p>
+                </div>
+            </div>
+                
+            <div class="hover-container">
+                <img class="VeraMolnár" src="imagenes/VeraMolnár-obra3.jpg" alt="">
+                <div class="texto-hover-container">
+                    <p>REGARDING THE INFINITE</p>
+                </div>
+            </div>
+
+    
         </div>
 
         <div class="subltitle-direccion">
@@ -220,8 +478,23 @@
 
         <div class="EduardoMac-container">
             <img class="EduardoMac" src="imagenes/EduardoMac.png" alt="">
-            <img class="EduardoMac2" src="imagenes/EduardoMac-obra2.png" alt="">
-            <img class="EduardoMac" src="imagenes/EduardoMac-obra3.jpg" alt="">
+
+            <div class="hover-container">
+                    
+                <img class="EduardoMac2" src="imagenes/EduardoMac-obra2.png" alt="">
+                <div class="texto-hover-container">
+                    <p>COMPOSICIÓN GEOMÉTRICA</p>
+                </div>
+            </div>
+
+            <div class="hover-container">
+                    
+                <img class="EduardoMac" src="imagenes/EduardoMac-obra3.jpg" alt="">
+                <div class="texto-hover-container">
+                    <p>SUTILEZAS DE LA LINEA</p>
+                </div>
+            </div>
+
         </div>
 
         <div class="subltitle-direccion">
@@ -236,8 +509,22 @@
 
         <div class="MiguelChevalier-container">
             <img class="MiguelChevalier" src="imagenes/MiguelChevalier.png" alt="">
-            <img class="MiguelChevalier2" src="imagenes/MiguelChevalier-obra2.png" alt="">
-            <img class="MiguelChevalier" src="imagenes/MiguelChevalier-obra3.png" alt="">
+
+            <div class="hover-container">
+                    
+                
+                <img class="MiguelChevalier2" src="imagenes/MiguelChevalier-obra2.png" alt="">
+                <div class="texto-hover-container">
+                    <p>Flower Power Festival München 2023</p>
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <img class="MiguelChevalier" src="imagenes/MiguelChevalier-obra3.png" alt="">
+                <div class="texto-hover-container">
+                    <p>MUESTRA INTERACTIVA PARA SOULAGES MUSEUM EN FRANCIA</p>
+                </div>
+            </div>
         </div>
 
         <img class="MiguelChevalier-grande" src="imagenes/MiguelChevalier-obra4.png" alt="">
@@ -254,8 +541,21 @@
 
         <div class="AngelaBulloch-container">
             <img class="AngelaBulloch" src="imagenes/ÁngelaBulloch.png" alt="">
-            <img class="AngelaBulloch2" src="imagenes/ÁngelaBulloch-obra2.png" alt="">
-            <img class="AngelaBulloch" src="imagenes/ÁngelaBulloch-obra3.png" alt="">
+
+            <div class="hover-container">
+                <img class="AngelaBulloch2" src="imagenes/ÁngelaBulloch-obra2.png" alt="">
+                <div class="texto-hover-container">
+                    <p>H + F</p>
+                </div>
+            </div>
+
+            <div class="hover-container">
+                <img class="AngelaBulloch" src="imagenes/ÁngelaBulloch-obra3.png" alt="">
+                <div class="texto-hover-container">
+                    <p>Esther Schipper</p>
+                </div>
+            </div>
+          
         </div>
 
         <div class="subltitle-direccion">
@@ -270,45 +570,24 @@
 
         <div class="DonaldJudd-container">
             <img class="DonaldJudd" src="imagenes/DonaldJudd.png" alt="">
-            <img class="DonaldJudd2" src="imagenes/DonaldJudd-obra2.png" alt="">
-            <img class="DonaldJudd" src="imagenes/DonaldJudd-obra3.png" alt="">
-        </div>
 
-<!--      <div class="SergioAlbiac-obras-container">
-            <div class="SergioAlbiac-obra1-container">
-                <img class="SergioAlbiac-obra1" src="imagenes/SergioAlbiac-obra1.jpg" alt="SergioAlbiac-obra1" id="imagen1">
-                <div class="texto-sergio-1">
-                    <p class="texto-SergioAlbiac-obra1">En esta obra, explora la identidad a travéz de la fragmentación digital.</p>
-                    <p class="texto-SergioAlbiac-obra1">Contempla la idea de que la identidad es fluida y puede ser reinterpretada por diferentes
-                        medios.</p>
+            <div class="hover-container">
+                <img class="DonaldJudd2" src="imagenes/DonaldJudd-obra2.png" alt="">
+                <div class="texto-hover-container">
+                    <p>UNTITLED, 1963</p>
                 </div>
             </div>
-           
 
-            <div class="SergioAlbiac-obras">
-                <div class="obra2-container">
-                    <img class="SergioAlbiac-obra2" src="imagenes/SergioAlbiac-obra2.jpg" alt="SergioAlbiac-obra2">
-                    <div class="texto-obra2">
-                        <p class="texto-SergioAlbiac-obras-2">Crea un efecto surrealista, lo que hace reconsiderar los límites de la percepción humana.</p>
-                        <p class="texto-SergioAlbiac-obras-2">Y como la tecnología puede modificar nuestra visión de nosotros mismos y de los demás.</p>
-                    </div>
-                </div>
-
-                <div class="obra3-container">
-                    <img class="SergioAlbiac-obra3" src="imagenes/SergioAlbiac-obra3.jpg" alt="SergioAlbiac-obra3">
-                    <div class="texto-obra3">
-                        <p class="texto-SergioAlbiac-obras-3">Aquí explora la descomposición visual del retrato, utilizando patrones geométricos que "rompen" el rostro en diferentes segmentos, creando una interacción entre lo figurativo y lo abstracto.</p>
-                        <p class="texto-SergioAlbiac-obras-3">Este enfoque invita al espectador a reflexionar sobre la transformación y fragmentación de la identidad en el contexto moderno.</p>
-                    </div>
+            
+            <div class="hover-container">
+                <img class="DonaldJudd" src="imagenes/DonaldJudd-obra3.png" alt="">
+                <div class="texto-hover-container">
+                    <p>THE COLD</p>
                 </div>
             </div>
         </div>
 
-        <p class="texto1-diferente">Otra característica muy importante sobre su trabajo es que Albiac no piensa que deba
-            limitarse a un solo medio (tradicional o nuevo) o estilos para expresarse artísticamente.</p>
- -->
     </div>
-
 
     <script src="app.js"> </script>
 </body>
